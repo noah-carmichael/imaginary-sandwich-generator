@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Sandwiches</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.1/socket.io.js" integrity="sha384-Mscsb8D8VnJrlv4rqx/tC8t8Upj1MZtTmBNx08t/SfBfW6h0kLqZKdD8l3+PcA3J" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js" integrity="sha512-aMGMvNYu8Ue4G+fHa359jcPb1u+ytAF+P2SCb+PxrjCdO3n3ZTxJ30zuH39rimUggmTwmh2u7wvQsDTHESnmfQ==" crossorigin="anonymous"></script>
+    <script src="static/app.js"></script>
+    <script type="text/javascript">
+        // var socket = io.connect('http://' + document.domain + ':' + location.port);
+        
+        // socket.on('connect', function() {
+        //     console.log('Connected to Flask server via Socket.IO');
+        // });
+
+        // socket.on('disconnect', function() {
+        //     console.log('Disconnected from Flask server');
+        // });
+    </script>
+</head>
+<body>
+    <h1>All About Sandwiches</h1>
+    <p>Use our infinte sandwhich generator to make your sandwich with materials from your fridge!</p>
+
+    <!-- <button id="myButton">Click Me</button> -->
+    <button id="myButton" onclick="buttonClicked()">GENERATE</button>
+
+    <h3 id=bread>  </h3>
+    <h3 id=cheese>  </h3>
+    <h3 id=meat>  </h3>
+    <h3 id=vegetable>  </h3>
+    <h3 id=bread1>  </h3>
+    
+    <h4 id=ai>  </h4>
+
+</body>
+</html>
