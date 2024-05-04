@@ -1,5 +1,2 @@
 # sandwich-generator
 
-thehte
-
-hello
