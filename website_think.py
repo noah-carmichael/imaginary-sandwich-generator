@@ -3,7 +3,7 @@ from flask_socketio import SocketIO
 import random
 from flask_socketio import emit
 import cohere
-co = cohere.Client('pS5EODFdSJ8qm02qMvV0YWSGiNBNzYoN4z04pkLD')
+co = cohere.Client('insert api key')
 app = Flask(__name__)
 socketio = SocketIO(app)
 
