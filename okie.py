@@ -25,7 +25,7 @@ print(f"""Your sandwich:
 print("Your imaginary sandwich:")
 # flipside 
 import cohere
-co = cohere.Client('pS5EODFdSJ8qm02qMvV0YWSGiNBNzYoN4z04pkLD')
+co = cohere.Client('insert api key')
 
 # response = co.chat(
 #     chat_history=[
